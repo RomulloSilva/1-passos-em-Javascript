@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>.:DaDos:.</title>
+    </head>
+    <body>
+
+        <div>
+            <h1> Cadastre-se</h1>
+            Seu email
+            <input type="texto" id="email"/>
+            Sua senha
+            <input type="password" id="senha"/>
+            <button onclick="valida()">Conectar</button>
+        </div>
+        <div id="resultado">
+        </div>
+        <script>
+            function valida(){
+                var email = document.getElementById("email").value;
+                var senha = document.getElementById("senha").value;
+                if(email === "romulo@gmail.com" && senha === "tupan"){
+                    document.getElementById("resultado").innerHTML="Conectado!!!!!!!!!"
+                }
+                else{
+                    document.getElementById("resultado").innerHTML="Usuário Inválido"
+                }
+            }
+            console.log("Email digitado"+ email);
+            console.log("Senha digitada"+ senha)
+        </script>
+    </body>
+    </html>
