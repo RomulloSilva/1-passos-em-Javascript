@@ -1,0 +1,10 @@
+.container{
+    color: plum;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.col-md-8{
+    text-align: center;
+}
+
