@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="jogoDaVelha.css">
+
+    <title>Jogo da velha</title>
+    <!--http://www.linhadecodigo.com.br/artigo/3506/criando-um-jogo-da-velha-em-javascript-html-e-css.aspx (LINK DO SITE ONDE ACHEI O JOGO)-->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="titulo">
+                JOGO DA VELHA
+            </div>
+        </div>
+        <div class="row" id="principal">
+            <div class="col-md-12" id="colunaprin">
+                <div class="row" id="linha1">
+                    <div class="col-md-4 dentro colu1" id="casa1" onclick="joga('casa1');"></div>
+                    <div class="col-md-4 dentro colu1" id="casa2" onclick="joga('casa2');"></div>
+                    <div class="col-md-4 dentro colu1" id="casa3" onclick="joga('casa3');"></div>
+                </div>
+                <div class="row " id="linha2">
+                    <div class="col-md-4 dentro colu2" id="casa4" onclick="joga('casa4');"></div>
+                    <div class="col-md-4 dentro colu2" id="casa5" onclick="joga('casa5');"></div>
+                    <div class="col-md-4 dentro colu2" id="casa6" onclick="joga('casa6');"></div>
+                </div>
+                <div class="row" id="linha3">
+                    <div class="col-md-4 dentro colu3" id="casa7" onclick="joga('casa7');"></div>
+                    <div class="col-md-4 dentro colu3" id="casa8" onclick="joga('casa8');"></div>
+                    <div class="col-md-4 dentro colu3" id="casa9" onclick="joga('casa9');"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="rodape">
+        <div class="col-md-12">
+            Quem joga.....
+            <!---imagens
+            <img src='img Jogo da velha/1.jpg'>
+            <img src='img Jogo da velha/2.jpg'>-->
+
+        </div>
+    </div>
+    <script src="jogoDaVelha.js"></script>
+
+
+    <!---script do bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
