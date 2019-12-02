@@ -16,12 +16,12 @@
         <div class="row">
             <div class="col-md-12" id="titulo">To do</div>
         </div>
-        <div class="row">
+        <div class="row" id="leiaLogo">
             <div class="col-md-8" id="leia">
                 <!---botão Bootstrap-->
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <button class="btn btn-outline-secondary" type="button"
+                        <button class="btn-lg active btn-outline-secondary" aria-pressed="true" type="button"
                             onclick="adicionar();">Adicionar</button>
                     </div>
                     <input type="text" class="form-control" placeholder="Qual a sua próxima tarefa" aria-label=""
@@ -31,13 +31,16 @@
             </div>
             <div class="col-md-4" id="logo">LOGO</div>
         </div>
-        <div class="row">
+        <div class="row" id=formulas>
             <div class="col-md-2" id="chek">check</div>
             <div class="col-md-8" id="tarefa">tarefa</div>
             <div class="col-md-2" id="numero">N° da tarefa</div>
         </div>
         <div class="row" id="novasTarefas"></div>
         <script src="listaDeTarefas.js"></script>
+
+
+
 
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

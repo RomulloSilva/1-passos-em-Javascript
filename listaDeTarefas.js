@@ -7,7 +7,7 @@ function adicionar(){
     //Pega as tarefas digitadas pelo usuário.
     var tarefa = document.getElementById("proximatarefa").value;
     //Código que sera escrito na linha/row(novasTarefas), criando 3 colunas de 2,8,2.
-    texto ='<div class="col-md-2 novasLinhas"><input type="checkbox"></input></div><div class="col-md-8 novasLinhas">#NOVATAREFA#</div><div class="col-md-2 novasLinhas">*SEQUÊNCIA*</div>';
+    texto ='<div class=""col-xs-6 col-md-4" novasLinhas" id="col2"><input type="checkbox"></input></div><div class=""col-xs-6 col-md-4" novasLinhas" id="col8">#NOVATAREFA#</div><div class=""col-xs-6 col-md-4" novasLinhas " id="col4">*SEQUÊNCIA*</div>';
     //Subtituição 
     texto = texto.replace("#NOVATAREFA#",tarefa);
     texto = texto.replace("*SEQUÊNCIA*",sequencia);
