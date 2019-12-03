@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script href="videos.js"></script>
     <title>Videos</title>
 </head>
 <body>
-    <video src="../../../Desktop/Nova pasta/BATMAN V SUPERMAN FIGHT [PART 1].mp4"></video>
-    <video src="../../../Desktop/Nova pasta/BATMAN V SUPERMAN FIGHT [PART 2].mp4"></video>
-    <video src="../../../Desktop/Nova pasta/Wonder Woman and Doomsday Fight - Batman vs Superman.mp4"></video>
+    <video id="myvideo" muted autoplay src="../../../Desktop/filme0.mp4" onended="tocarProxima();" onclick="aumentaVol();"></video>
 
     <button onclick="tocaAnterior();">Prev</button>
     <button onclick="tocarAtual();">Play</button>
